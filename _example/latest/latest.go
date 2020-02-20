@@ -2,14 +2,15 @@ package main
 
 import (
 	"fmt"
+	update "go-update"
 	"runtime"
 
 	"github.com/apex/log"
 	"github.com/kierdavis/ansi"
 
-	"github.com/tj/go-update"
-	"github.com/tj/go-update/progress"
-	"github.com/tj/go-update/stores/github"
+	"github.com/JacobJohansen/go-update/go-update"
+	"github.com/JacobJohansen/go-update/progress"
+	"github.com/JacobJohansen/go-update/stores/github"
 )
 
 func init() {

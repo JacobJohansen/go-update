@@ -5,8 +5,8 @@ import (
 	"log"
 	"runtime"
 
-	"github.com/tj/go-update"
-	"github.com/tj/go-update/progress"
+	"github.com/JacobJohansen/go-update"
+	"github.com/JacobJohansen/go-update/progress"
 )
 
 func Example() {

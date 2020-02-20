@@ -3,10 +3,9 @@ package github
 
 import (
 	"context"
-	"time"
-
+	"github.com/JacobJohansen/go-update"
 	"github.com/google/go-github/github"
-	"github.com/tj/go-update"
+	"time"
 )
 
 // Store is the store implementation.
